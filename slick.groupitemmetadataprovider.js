@@ -1,4 +1,4 @@
-(function ($) {
+(function*($) {
   $.extend(true, window, {
     Slick: {
       Data: {
@@ -8,7 +8,7 @@
   });
 
 
-  /***
+  /#!*
    * Provides item metadata for group (Slick.Group) and totals (Slick.Totals) rows produced by the DataView.
    * This metadata overrides the default behavior and formatting of those rows so that they appear and function
    * correctly when processed by the grid.
@@ -156,3 +156,4 @@
     };
   }
 })(jQuery);
+ 
